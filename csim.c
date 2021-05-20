@@ -315,7 +315,7 @@ int main(int argc, char *argv[])
 
     //step4用： 用户补充检验代码 
     int s, E, b, isVerbose = 0;
-	char fileName[100];
+    char fileName[100];
     Sim_Cache cache;
 
     get_Opt(argc, argv, &s, &E, &b, fileName, &isVerbose);
